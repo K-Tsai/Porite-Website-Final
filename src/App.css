@@ -1,10 +1,27 @@
+* {
+  font-size: 20px;
+}
+
 .App {
   text-align: center;
+}
+
+.nav-link {
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  font-size: 20px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+#poriteLogo {
+  width: 210px;
+  height: 70px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
