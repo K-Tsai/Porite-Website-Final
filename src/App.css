@@ -7,7 +7,7 @@
 }
 
 .nav-link {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 .navbar-brand {
@@ -19,9 +19,22 @@
   pointer-events: none;
 }
 
+#poriteMeaning {
+  margin-top: 50px;
+}
+
 #poriteLogo {
-  width: 210px;
-  height: 70px;
+  width: 180px;
+  height: auto;
+}
+
+.mr-auto {
+  margin-left: 27.781px;
+} 
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
