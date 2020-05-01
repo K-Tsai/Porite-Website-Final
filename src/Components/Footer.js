@@ -9,7 +9,7 @@ class Footer extends Component {
         <div className="row">
           <div className="col">
               <h1 className='footerHeader'>Address</h1>
-              <ul>
+              <ul className= "footerList">
                 <li>Porite USA</li>
                 <li>1295 Combermere Dr,</li>
                 <li>Troy, Michigan</li>
@@ -18,7 +18,7 @@ class Footer extends Component {
           </div>
           <div className="col">
               <h1 className='footerHeader'>Information</h1>
-                <ul>
+                <ul className="footerList">
                   <Link to= "/about">
                     <li className="footerColor">About</li>
                   </Link>
@@ -38,7 +38,7 @@ class Footer extends Component {
           </div>
           <div className="col">
           <h1 className='footerHeader'>Contact</h1>
-              <ul>
+              <ul className="footerList">
                 <Link to= "/contact" style={{ textDecoration: 'none' }}>
                   <li className="footerColor">Email us</li>
                 </Link>

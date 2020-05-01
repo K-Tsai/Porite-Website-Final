@@ -57,6 +57,10 @@ h3 {
   flex-direction: row;
 }
 
+.offices {
+  flex-wrap: wrap;
+}
+
 .offices4 {
   margin-bottom: 50px;
 }

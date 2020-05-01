@@ -11,6 +11,7 @@ import Contact from './Components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Footer from './Components/Footer';
+import axios from 'axios';
 
 class App extends Component {
   constructor(props) {
@@ -37,9 +38,23 @@ class App extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    console.log(this.state);
+    axios({
+      method: "POST", 
+      url:"http://localhost:3002/send", 
+      data:  this.state
+    }).then((response)=>{
+      if (response.data.status === 'success'){
+        alert("Message Sent."); 
+        this.resetForm()
+      }else if(response.data.status === 'fail'){
+        alert("Message failed to send.")
+      }
+    })
   }
 
+  resetForm () {
+    this.setState({name: '', cname: '', telephone: '', email: '', material: '', quantity: '', ddate: '', description: '', })
+ }
 
   render() {
     return (

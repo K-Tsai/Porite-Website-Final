@@ -28,6 +28,7 @@ class Network extends Component {
           />
           </div>
          <h2 className="title1">United States & Europe</h2>
+         <div className="offices">
           <div className="offices1">
             <div className="col">
               <img 
@@ -77,7 +78,7 @@ class Network extends Component {
                 <li>http://www.porite-europe.com</li>
               </ul>
             </div>
-          </div>
+          </>
           <h2 className="title2">Asia</h2>
           <div className="offices2">
             <div className="col">
@@ -237,6 +238,7 @@ class Network extends Component {
                 <li>E-mail：takeuchi@porite.com.hk</li>
               </ul>
             </div>
+          </div>
           </div>
         </div>
       </div>

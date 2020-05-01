@@ -1,10 +1,43 @@
 import React, { Component } from 'react';
-import "./Contact.css"
+import phoneicon from "../pictures/phoneicon.jpg";
+import locationicon from "../pictures/locationicon.jpg";
+import mailicon from "../pictures/mailicon.jpg";
+import "./Contact.css"; 
 
 class Contact extends Component {
   render() {
     return (
+      //Designed by @Freepik Link: www.freepik.com
       <div className="container">
+        <div className="contacts">
+            <div className="col">
+              <img 
+                alt="Phone Icon"
+                src={phoneicon}
+                id="phoneIcon"
+                class="icons"
+              />
+              <p className="contactInfo">(248) 597-9988</p>
+            </div>
+            <div className="col">
+              <img 
+                alt="Location Icon"
+                src={locationicon}
+                id="locationIcon"
+                class="icons"
+              />
+              <p className="contactInfo">1295 Combermere Dr, Troy, MI 48083</p>
+            </div>
+            <div className="col">
+              <img 
+                alt="Mail Icon"
+                src={mailicon}
+                id="mailIcon"
+                class="icons"
+              />
+              <p className="contactInfo">dianne@poriteusa.com</p>
+            </div>
+          </div>
         <div className="cform">
           <h1 className="form-title">Request a Quote</h1>
         <form action="#">

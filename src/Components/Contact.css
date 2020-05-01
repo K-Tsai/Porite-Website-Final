@@ -56,6 +56,17 @@ input[type=submit]:hover {
   margin: 50px;
 }
 
+.contacts {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.icons {
+  width: 120px;
+  height: auto;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -63,4 +74,23 @@ form {
 
 .idesc {
   height: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+  .form-title {
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 17px;
+  }
+
+  .cform {
+    margin: 20px;
+  }
+
+  input[type=submit] {
+    width: 100px;
+    height: 50px;
+  }
 }
