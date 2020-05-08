@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-
+import Sidebar from "./Sidebar.js"
+import "./Products.css"
 class Products extends Component {
   render() {
     return (
-      <div>
-        <h1>This is the Products</h1>
+      <div id="Products">
+        <Sidebar/>
+        <div id="page-wrap">
+          <h1>Products</h1>
+          <h2>Check out the products page with our numerous parts</h2>
+        </div>
       </div>
     );
   }

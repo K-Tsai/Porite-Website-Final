@@ -28,7 +28,6 @@ class Network extends Component {
           />
           </div>
          <h2 className="title1">United States & Europe</h2>
-         <div className="offices">
           <div className="offices1">
             <div className="col">
               <img 
@@ -38,7 +37,7 @@ class Network extends Component {
                 class="troy"
               />
               <ul className="picture-info">
-                <h3>Porite USA Co., Ltd.(Warehouse)</h3>
+                <h3 className= "officeHeading">Porite USA Co., Ltd.(Warehouse)</h3>
                 <li>1295, Combermere Dr., Troy, MI 48083,</li>
                 <li>USA</li>
                 <li>Tel：+1-248-597-9988</li>
@@ -54,7 +53,7 @@ class Network extends Component {
                 class="jefferson"
               />
               <ul className="picture-info">
-                <h3>Porite Jefferson Corp.</h3>
+                <h3 className= "officeHeading">Porite Jefferson Corp.</h3>
                 <li>1535, Fairground Road. Jefferson City, MO</li>
                 <li>65109, U.S.A.</li>
                 <li>Tel：+1-573-893-2445</li>
@@ -70,7 +69,7 @@ class Network extends Component {
                 class="poriteJapan"
               />
               <ul className="picture-info">
-                <h3>Porite Europe S.A.S.(Warehouse)</h3>
+                <h3 className= "officeHeading">Porite Europe S.A.S.(Warehouse)</h3>
                 <li>5 Voie Comte Joly de Fleury, 91070  Bondoufle, France</li>
                 <li>Tel：+33-1-6991-4664</li>
                 <li>Fax：+33-1-6972-2849</li>
@@ -78,7 +77,7 @@ class Network extends Component {
                 <li>http://www.porite-europe.com</li>
               </ul>
             </div>
-          </>
+          </div>
           <h2 className="title2">Asia</h2>
           <div className="offices2">
             <div className="col">
@@ -89,7 +88,7 @@ class Network extends Component {
                 class="japan"
               />
               <ul className="picture-info">
-                <h3>Porite Corporation</h3>
+                <h3 className= "officeHeading">Porite Corporation</h3>
                 <li>2-121, Nisshin-Cho, Kita-Ku, Saitama City,</li>
                 <li>Saitama Pref., 331-0823, Japan</li>
                 <li>Tel：+81-48-653-2222</li>
@@ -106,7 +105,7 @@ class Network extends Component {
                 class="japan"
               />
               <ul className="picture-info">
-                <h3>Porite Corp. Kumagaya Plant </h3>
+                <h3 className= "officeHeading">Porite Corp. Kumagaya Plant </h3>
                 <li>Kamiebukuro 350, Kumagaya City</li>
                 <li>Saitama, 360-0234, Japan</li>
                 <li>Tel: +81-48-588-6182</li>
@@ -121,7 +120,7 @@ class Network extends Component {
                 class="poriteJapan"
               />
               <ul className="picture-info">
-                <h3>Porite Taiwan Co., Ltd.</h3>
+                <h3 className= "officeHeading">Porite Taiwan Co., Ltd.</h3>
                 <li>1, Zhongpu St. 20 Lin, Dapu Li,Zhunan,</li>
                 <li>Miaoli 35059, Taiwan, R.O.C.</li>
                 <li>Tel：+886-37-581-121</li>
@@ -140,7 +139,7 @@ class Network extends Component {
                 class="singapore"
               />
               <ul className="picture-info">
-                <h3>Porite Singapore PTE. Ltd.</h3>
+                <h3 className= "officeHeading">Porite Singapore PTE. Ltd.</h3>
                 <li>18. Third Chin Bee Road, 618692,</li>
                 <li>Singapore</li>
                 <li>Tel：+65-264-2323</li>
@@ -156,7 +155,7 @@ class Network extends Component {
                 class="yangzhou"
               />
               <ul className="picture-info">
-                <h3>Porite Yangzhou Technology &</h3>
+                <h3 className= "officeHeading">Porite Yangzhou Technology &</h3>
                 <li>Industry Co., Ltd.</li>
                 <li>399, Han-Jiang South Road, Yangzhou</li>
                 <li>Economic & Technical Development Area,</li>
@@ -175,7 +174,7 @@ class Network extends Component {
                 class="malaysia"
               />
               <ul className="picture-info">
-                <h3>Porite Malaysia SDN. BHD.</h3>
+                <h3 className= "officeHeading">Porite Malaysia SDN. BHD.</h3>
                 <li>2, Jalan Keluli 1, Kawasan Perindustrian</li>
                 <li>Bukit Raja, Seksyen 7,40000 Shah Alam,</li>
                 <li>Selangor Darul Ehsan, Malaysia</li>
@@ -194,7 +193,7 @@ class Network extends Component {
                 class="tou-fen"
               />
               <ul className="picture-info">
-                <h3>Tou-Fen Factory</h3>
+                <h3 className= "officeHeading">Tou-Fen Factory</h3>
                 <li>236, Hsin-Pu, 7 Lin, Hsing-Lung Li, Tou-</li>
                 <li>Fen, Miao-Li, 35163, Taiwan, R.O.C.</li>
                 <li>Tel：+886-37-590-222</li>
@@ -212,7 +211,7 @@ class Network extends Component {
                 class="india"
               />
               <ul className="picture-info">
-                <h3>Porite India Private Limited</h3>
+                <h3 className= "officeHeading">Porite India Private Limited</h3>
                 <li>Plot No – A-1/2/1, MIDC ChakanPhase II,</li>
                 <li>Shinde Village, Pune Disctrict, Maharashtra</li>
                 <li>410501, India</li>
@@ -229,7 +228,7 @@ class Network extends Component {
                 class="hong-kong"
               />
               <ul className="picture-info">
-                <h3>Porite Hong Kong Ind. Co., Ltd.</h3>
+                <h3 className= "officeHeading">Porite Hong Kong Ind. Co., Ltd.</h3>
                 <li>Unit No.6, 15th Floor Prosperity Place,</li>
                 <li>No.6, Shing Yip St., Kwung Tong, Kowloon,</li>
                 <li>HK</li>
@@ -238,7 +237,6 @@ class Network extends Component {
                 <li>E-mail：takeuchi@porite.com.hk</li>
               </ul>
             </div>
-          </div>
           </div>
         </div>
       </div>
