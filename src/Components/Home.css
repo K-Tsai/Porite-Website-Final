@@ -1,14 +1,86 @@
 .products {
+  margin-top: 10px;
   width: 100%;
   height: auto;
-  box-shadow: 10px 10px 5px #ccc;
-  -moz-box-shadow: 10px 10px 5px #ccc;
-  -webkit-box-shadow: 10px 10px 5px #ccc;
-  -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
 .productHeader {
   margin-top: 20px;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 50px;
+}
+
+#PoriteMeaning {
+  width: 100%;
+  height: auto;
+}
+
+#poriteProducts {
+  width: 90%;
+  margin:36px;
+}
+
+.partsCenter {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+}
+
+.productDesc {
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  padding-top: 17%;
+  width: 400px;
+}
+
+.productDesc2 {
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  padding-left: 183px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+  width: 586px;
+}
+
+.productDesc3 {
+  text-align: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  padding-left: 0px;
+  padding-top: 99px;
+  padding-bottom: 100px;
+  padding-right: 57px;
+  width: 490px;
+}
+
+.botLayout {
+  display:flex; 
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.botLayout2 {
+  display: flex; 
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.botLayout col {
+  background: blue;
+}
+
+#map {
+  width: 111%;
 }

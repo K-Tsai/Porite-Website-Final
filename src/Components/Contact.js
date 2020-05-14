@@ -7,7 +7,7 @@ import "./Contact.css";
 class Contact extends Component {
   render() {
     return (
-      //Designed by @Freepik Link: www.freepik.com
+      //Designed by @Freepik Link:www.freepik.com
       <div className="container">
         <div className="contacts">
             <div className="col">
@@ -35,7 +35,7 @@ class Contact extends Component {
                 id="mailIcon"
                 class="icons"
               />
-              <p className="contactInfo">dianne@poriteusa.com</p>
+              <p className="contactInfo">sales@poriteusa.com</p>
             </div>
           </div>
         <div className="cform">
