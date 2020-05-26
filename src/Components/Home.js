@@ -6,6 +6,7 @@ import OillessBearingParts from '../pictures/OillessBearingParts.jpg';
 import PoriteMeaning from '../pictures/PoriteMeaning.jpg';
 import map from '../pictures/map.jpg';
 import PoriteProducts from '../pictures/PoriteProducts.jpg';
+import {Link} from 'react-router-dom';
 import "./Home.css";
 
 class Home extends React.Component {
@@ -58,9 +59,9 @@ class Home extends React.Component {
           </div>
           <div className="botLayout">
           <div className="col">
+              <h1 className="linkHeader">Leading Manufacturer</h1>
               <p className="productDesc">
-                Created in 1952 in Japan by Mr. Tatsunosuke Kikuchi, 
-                Porite group has become a major actor in the manufacturing
+                A major actor in the manufacturing
                 of sintered mechanical parts.
               </p>
             </div>
@@ -83,13 +84,16 @@ class Home extends React.Component {
               />
               </div>
               <div className="col">
+                <h1 className="linkHeader">Large Network</h1>
                 <p className="productDesc2">
-                Porite has access to a vast network of experienced individuals
-                that gives us the ability to manufacture even the most complex PM parts. 
+                Porite has access to a vast network of experienced individuals. 
                 </p>
+                <Link to= "/network">
+                    <li className="link">Learn more about our network</li>
+                </Link>
               </div>
             </div>
-            <div className="botLayout2">
+            <div className="botLayout3">
             <div className="col">
                 <p className="productDesc3">
                 A wide range of bushings, bearings, gears, spacers, and structural
