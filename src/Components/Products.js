@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import Sidebar from "./Sidebar.js"
+import SeatAdjustment from "../pictures/SeatAdjustment.jpg";
+import Steel from "../pictures/Steel.jpg";
+import Steering from "../pictures/Steering.jpg";
+import Synchronizer from "../pictures/Synchronizer.jpg";
+import Transmission from "../pictures/Transmission.jpg";
+import VVT from "../pictures/VVT.jpg";
 import "./Products.css"
+
 class Products extends Component {
   render() {
     return (
