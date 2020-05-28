@@ -34,7 +34,10 @@
 }
 
 #autoParts, #metalInjection, #oillessBearing {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
 .productDesc {
@@ -57,7 +60,12 @@
   width: 586px;
 }
 
-.link {
+#link3 {
+  list-style: none;
+  padding-right: 213px;
+}
+
+#link2 {
   list-style: none;
   padding-left: 28px;
 }
@@ -73,6 +81,17 @@
 
 .row2 {
   padding-top: 65px;
+  padding-left: 30px;
+}
+
+.row3 {
+  padding-top: 83px;
+}
+
+#linkHeader3 {
+  font-family: 'Merriweather', serif;
+  font-size: 34px;
+  padding-right: 264px;
 }
 
 #linkHeader2 {
@@ -92,8 +111,8 @@
   font-weight:bold;
   font-size: 22px;
   padding-left: 0px;
-  padding-top: 99px;
-  padding-bottom: 100px;
+  padding-top: 14px;
+  padding-bottom: 5px;
   padding-right: 57px;
   width: 490px;
 }

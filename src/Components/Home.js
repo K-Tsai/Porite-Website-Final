@@ -95,19 +95,23 @@ class Home extends React.Component {
                     Porite has access to a vast network of experienced individuals. 
                     </p>
                     <Link to= "/network">
-                      <li className="link">Learn more about our network</li>
+                      <li id="link2">Learn more about our network</li>
                     </Link>
                   </div>
                 </div>
             </div>
             <div className="botLayout3">
             <div className="col">
-              <h1 className="linkHeader3"> </h1>
-                <p className="productDesc3">
-                A wide range of bushings, bearings, gears, spacers, and structural
-                components for the automotive, industrial, agricultural, and consumer 
-                products industry.
-                </p>
+              <div className="row3">
+                <h1 id="linkHeader3">Vast Industry </h1>
+                  <p className="productDesc3">
+                  Presence in the automotive, industrial, 
+                  agricultural, and consumer products industry.
+                  </p>
+                  <Link to= "/products">
+                    <li id="link3">Learn more about our products</li>
+                  </Link>
+              </div>
             </div>
               <div className="col">
               <img 
