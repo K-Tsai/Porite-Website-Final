@@ -59,11 +59,16 @@ class Home extends React.Component {
           </div>
           <div className="botLayout">
           <div className="col">
-              <h1 className="linkHeader">Leading Manufacturer</h1>
-              <p className="productDesc">
-                A major actor in the manufacturing
-                of sintered mechanical parts.
-              </p>
+              <div className="row1">
+                <h1 id="linkHeader1">Leading Manufacturer</h1>
+                <p className="productDesc">
+                  A major leader in the manufacturing
+                  of sintered mechanical parts.
+                </p>
+                <Link to= "/network">
+                  <li id="link1">Learn more about our company</li>
+                </Link>
+              </div>
             </div>
             <div className="col">
               <img 
@@ -76,25 +81,28 @@ class Home extends React.Component {
           </div>
             <div className="botLayout2">
               <div className="col">
-              <img 
-                alt="Porite Map"
-                src={map}
-                id="map"
-                class="products"
-              />
+                <img 
+                  alt="Porite Map"
+                  src={map}
+                  id="map"
+                  class="products"
+                />
               </div>
-              <div className="col">
-                <h1 className="linkHeader">Large Network</h1>
-                <p className="productDesc2">
-                Porite has access to a vast network of experienced individuals. 
-                </p>
-                <Link to= "/network">
-                    <li className="link">Learn more about our network</li>
-                </Link>
-              </div>
+                <div className="col">
+                  <div className="row2">
+                    <h1 id="linkHeader2">Large Network</h1>
+                    <p className="productDesc2">
+                    Porite has access to a vast network of experienced individuals. 
+                    </p>
+                    <Link to= "/network">
+                      <li className="link">Learn more about our network</li>
+                    </Link>
+                  </div>
+                </div>
             </div>
             <div className="botLayout3">
             <div className="col">
+              <h1 className="linkHeader3"> </h1>
                 <p className="productDesc3">
                 A wide range of bushings, bearings, gears, spacers, and structural
                 components for the automotive, industrial, agricultural, and consumer 

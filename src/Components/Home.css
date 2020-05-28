@@ -42,7 +42,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: bold;
-  padding-top: 20%;
+  padding-top: 14px;
   width: 400px;
 }
 
@@ -62,9 +62,28 @@
   padding-left: 28px;
 }
 
-.linkHeader {
+#link1 {
+  list-style: none;
+  padding-right: 189px;
+}
+
+.row1 {
+  padding-top: 70px;
+}
+
+.row2 {
+  padding-top: 65px;
+}
+
+#linkHeader2 {
   font-family: 'Merriweather', serif;
   font-size: 34px;
+}
+
+#linkHeader1 {
+  font-family: 'Merriweather', serif;
+  font-size: 34px;
+  padding-right: 93px;
 }
 
 .productDesc3 {
