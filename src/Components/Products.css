@@ -3,13 +3,20 @@
   height: auto;
 }
 
-.autoParts {
-  padding-left: 64px;
+.autoParts, .powerToolParts, .MetalInjection {
+  font-family: 'Merriweather', serif;
+  font-size: 23px;
+  padding-left: 66px;
 }
 
-.parts1, .parts2 {
+.parts1, .parts2, .parts3, .parts4 {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.productTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
 }

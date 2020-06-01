@@ -10,10 +10,10 @@ class Footer extends Component {
           <div className="col">
               <h1 className='footerHeader'>Address</h1>
               <ul className= "footerList">
-                <li>Porite USA</li>
-                <li>1295 Combermere Dr,</li>
-                <li>Troy, Michigan</li>
-                <li>United States</li>
+                <li className="Address">Porite USA</li>
+                <li className="Address">1295 Combermere Dr,</li>
+                <li className="Address">Troy, Michigan</li>
+                <li className="Address">United States</li>
               </ul>
           </div>
           <div className="col">

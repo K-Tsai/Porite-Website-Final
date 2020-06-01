@@ -24,7 +24,6 @@ class NavigationBar extends React.Component {
             <Nav.Link href="/products">Products</Nav.Link>
             <Nav.Link href="/network">Network</Nav.Link>
             <Nav.Link href="/technology">Technology</Nav.Link>
-            <Nav.Link href="/safety">Safety</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

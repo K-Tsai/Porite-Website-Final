@@ -105,7 +105,7 @@ class Home extends React.Component {
               <div className="row3">
                 <h1 id="linkHeader3">Vast Industry </h1>
                   <p className="productDesc3">
-                  Presence in the automotive, industrial, 
+                  Our presence is seen in the automotive, industrial, 
                   agricultural, and consumer products industry.
                   </p>
                   <Link to= "/products">

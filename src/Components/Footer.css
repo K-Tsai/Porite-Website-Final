@@ -3,7 +3,7 @@
   color: white;
   padding: 20px;
   text-decoration: none;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border-top: 4px solid #800000;
 }
 
@@ -20,13 +20,19 @@
 
 .footerHeader{
   text-align: left;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', serif;
   text-decoration: underline;
   font-size: 21px;
 }
 
+.Address {
+  font-size: 17px;
+}
+
 .footerColor {
   color: white;
+  font-size: 17px;
+
 }
 
 .footerColor:hover {
