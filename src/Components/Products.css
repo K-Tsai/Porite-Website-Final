@@ -9,14 +9,38 @@
   padding-left: 66px;
 }
 
-.parts1, .parts2, .parts3, .parts4 {
+.autoParts {
+  margin-top: 30px;
+}
+
+.parts1, .parts2, .parts3, .parts4, .parts5 {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.part5 {
+  margin-bottom: 30px;
 }
 
 .productTitle {
   font-family: 'Montserrat', sans-serif;
   font-size: 19px;
+  margin-top: 10px;
+}
+
+a {
+  font-size: 25px;
+}
+
+.reminder {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.reminderTitle {
+  font-size: 25px;
+  text-align:center;
 }

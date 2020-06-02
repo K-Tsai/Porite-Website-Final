@@ -11,6 +11,9 @@ import StainlessSteelParts from "../pictures/StainlessSteelParts.jpg";
 import OAParts from "../pictures/OAParts.jpg";
 import MagneticParts from "../pictures/MagneticParts.jpg";
 import VVT from "../pictures/VVT.jpg";
+import VacuumPump from "../pictures/VacuumPump.jpg";
+import ElectronicPower from "../pictures/ElectronicPower.jpg";
+import ElectronicBrake from "../pictures/ElectronicBrake.jpg";
 import "./Products.css"
 
 class Products extends Component {
@@ -74,11 +77,40 @@ class Products extends Component {
                 id="VVTparts"
                 class="parts"
               />
-              <h2 className="productTitle">Transmission Parts</h2>
+              <h2 className="productTitle">VVT Parts</h2>
+            </div>
+          </div>
+          <div className="parts3">
+            <div className="col">
+              <img 
+                alt="Electronic Brake Parts"
+                src={ElectronicBrake}
+                id="electronicBrake"
+                class="parts"
+              />
+              <h2 className="productTitle">Electronic Parking Brake Parts (E.P.B.)</h2>
+            </div>
+            <div className="col">
+              <img 
+                alt="Electronic Power Steering Parts"
+                src={ElectronicPower}
+                id="electronicPower"
+                class="parts"
+              />
+              <h2 className="productTitle">Eletronic Power Steering Parts (E.P.S.)</h2>
+            </div>
+            <div className="col">
+              <img 
+                alt="Vacuum Pump"
+                src={VacuumPump}
+                id="vacuumPump"
+                class="parts"
+              />
+              <h2 className="productTitle">Vacuum Pump Coupling</h2>
             </div>
           </div>
           <h1 className="powerToolParts">Power Tool Parts</h1>
-          <div className ="parts3">
+          <div className ="parts4">
             <div className="col">
               <img 
                 alt="Gear Box 12V"
@@ -108,34 +140,39 @@ class Products extends Component {
             </div>
           </div>
           <h1 className="MetalInjection">Metal Injection Molding</h1>
-          <div className= "parts4">
-          <div className="col">
+          <div className= "parts5">
+            <div className="col">
               <img 
-                alt="Gear Box 12V"
-                src={GearBox12V}
-                id="12V"
+                alt="Stainless Steel Parts"
+                src={StainlessSteelParts}
+                id="stainlessSteel"
                 class="parts"
               />
               <h2 className="productTitle">2 Speed Gear Boxes (12V)</h2>
             </div>
             <div className= "col">
               <img 
-                alt="Gear Box 22V"
-                src={GearBox22V}
-                id="22V"
+                alt="OA Parts"
+                src={OAParts}
+                id="OA"
                 class="parts"
               />
               <h2 className="productTitle">2 Speed Gear Boxes (21.6V)</h2>
             </div>
             <div className="col">
               <img 
-                alt="Power Tool Parts"
-                src={PowerToolParts1}
-                id="powerToolParts"
+                alt="Magnetic Parts"
+                src={MagneticParts}
+                id="magneticParts"
                 class="parts"
               />
               <h2 className="productTitle">Power Tool Parts</h2>
             </div>
+          </div>
+          <div className="reminder">
+            <h1 className="reminderTitle"> 
+              Please Visit <a href="http://www.porite.com.tw/en/html/product/index.php?muid=71">Porite Taiwan</a> for more product information.
+            </h1>
           </div>
         </div>
       </div>

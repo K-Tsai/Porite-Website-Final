@@ -7,6 +7,7 @@ import PoriteMeaning from '../pictures/PoriteMeaning.jpg';
 import map from '../pictures/map.jpg';
 import PoriteProducts from '../pictures/PoriteProducts.jpg';
 import {Link} from 'react-router-dom';
+import ReactPlayer from "react-player"
 import "./Home.css";
 
 class Home extends React.Component {
@@ -20,15 +21,15 @@ class Home extends React.Component {
             id="poriteMeaning"
             class="img-fluid"
           />
-          {/* <p className= 'Intro'>	
-            Created in 1952 in Japan by Mr. Tatsunosuke Kikuchi, today chaired by
-            Shigeo AOKI, Porite group has become a major actor in the manufacturing
-            of sintered mechanical parts, and the world leader in the production of
-            bushings, bearings, gears, spacers, and structural components for the automotive, 
-            industrial, agricultural, and consumer products industry.
-          </p> */}
-          <h1 className="partsCenter">Products</h1>
+          <div className="video">
+            <ReactPlayer
+            url="https://www.youtube.com/watch?time_continue=120&v=6W-ud-SpBbM&feature=emb_logo"
+            width="700px"
+            height="400px"
+            />
+          </div>
           <div className="products">
+            
             <div className="col">
               <img 
                 alt="Auto Parts"
