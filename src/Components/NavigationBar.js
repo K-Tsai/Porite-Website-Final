@@ -2,7 +2,7 @@ import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
 import PoriteLogo from '../pictures/PoriteLogo.png';
 import {Link} from 'react-router-dom';
-
+import "./NavigationBar.css"
 class NavigationBar extends React.Component {
   render() {
     return (

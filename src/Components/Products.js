@@ -21,6 +21,36 @@ class Products extends Component {
     return (
       <div className="container">
         <div className="row">
+          <h1 className="autoParts">Power Tools</h1>
+          <div className ="parts1">
+            <div className="col">
+              <img 
+                alt="Gear Box 12V"
+                src={GearBox12V}
+                id="12V"
+                class="parts"
+              />
+              <h2 className="productTitle">2 Speed Gear Boxes (12V)</h2>
+            </div>
+            <div className= "col">
+              <img 
+                alt="Gear Box 22V"
+                src={GearBox22V}
+                id="22V"
+                class="parts"
+              />
+              <h2 className="productTitle">2 Speed Gear Boxes (21.6V)</h2>
+            </div>
+            <div className="col">
+              <img 
+                alt="Power Tool Parts"
+                src={PowerToolParts1}
+                id="powerToolParts"
+                class="parts"
+              />
+              <h2 className="productTitle">Power Tool Parts</h2>
+            </div>
+          </div>
           <h1 className="autoParts">Auto Parts</h1>
           <div className="parts1">
             <div className="col">
@@ -107,36 +137,6 @@ class Products extends Component {
                 class="parts"
               />
               <h2 className="productTitle">Vacuum Pump Coupling</h2>
-            </div>
-          </div>
-          <h1 className="powerToolParts">Power Tool Parts</h1>
-          <div className ="parts4">
-            <div className="col">
-              <img 
-                alt="Gear Box 12V"
-                src={GearBox12V}
-                id="12V"
-                class="parts"
-              />
-              <h2 className="productTitle">2 Speed Gear Boxes (12V)</h2>
-            </div>
-            <div className= "col">
-              <img 
-                alt="Gear Box 22V"
-                src={GearBox22V}
-                id="22V"
-                class="parts"
-              />
-              <h2 className="productTitle">2 Speed Gear Boxes (21.6V)</h2>
-            </div>
-            <div className="col">
-              <img 
-                alt="Power Tool Parts"
-                src={PowerToolParts1}
-                id="powerToolParts"
-                class="parts"
-              />
-              <h2 className="productTitle">Power Tool Parts</h2>
             </div>
           </div>
           <h1 className="MetalInjection">Metal Injection Molding</h1>

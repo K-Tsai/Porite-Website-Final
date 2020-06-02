@@ -31,9 +31,6 @@ class Footer extends Component {
                   <Link to= "/technology">
                     <li className="footerColor">Technology</li>
                   </Link>
-                  <Link to="/safety">
-                    <li className="footerColor">Safety</li>
-                  </Link>
                  </ul>
           </div>
           <div className="col">
@@ -42,7 +39,7 @@ class Footer extends Component {
                 <Link to= "/contact" style={{ textDecoration: 'none' }}>
                   <li className="footerColor">Email us</li>
                 </Link>
-                <li>(248) 597-9988</li>
+                <li className="footerColor">(248) 597-9988</li>
               </ul>
           </div>
         </div>

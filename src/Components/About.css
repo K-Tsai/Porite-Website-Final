@@ -6,10 +6,19 @@
 .history {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
 .aboutDescription {
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 572px) {
+	.history{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+	}
+
 }

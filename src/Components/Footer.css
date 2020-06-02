@@ -27,12 +27,13 @@
 
 .Address {
   font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footerColor {
   color: white;
   font-size: 17px;
-
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footerColor:hover {

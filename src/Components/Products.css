@@ -7,9 +7,10 @@
   font-family: 'Merriweather', serif;
   font-size: 23px;
   padding-left: 66px;
+  text-decoration: underline;
 }
 
-.autoParts {
+.autoParts,.metalInjection {
   margin-top: 30px;
 }
 

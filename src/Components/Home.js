@@ -15,21 +15,18 @@ class Home extends React.Component {
     return (
       <div class="container">
         <div className="row">
-          <img
+          <div className="homePage">
+            <img
             alt="Meaning"
             src={PoriteFrontPage} fluid
             id="poriteMeaning"
             class="img-fluid"
           />
-          <div className="video">
-            <ReactPlayer
-            url="https://www.youtube.com/watch?time_continue=120&v=6W-ud-SpBbM&feature=emb_logo"
-            width="700px"
-            height="400px"
-            />
           </div>
+          
+          <h1 className="partsCenter">Products</h1>
           <div className="products">
-            
+    
             <div className="col">
               <img 
                 alt="Auto Parts"
