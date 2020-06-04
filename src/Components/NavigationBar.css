@@ -2,7 +2,7 @@
   font-family: 'Merriweather', serif;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 1192px) {
+@media only screen and (min-width: 0px) and (max-width: 987px) {
 a.nav-link {
   font-size: 23px;
 }
