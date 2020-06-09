@@ -34,7 +34,7 @@ class Network extends Component {
                 alt="Troy Offices"
                 src={P_0313}
                 id="troyOffice"
-                class="troy"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite USA Co., Ltd.(Warehouse)</h3>
@@ -50,7 +50,7 @@ class Network extends Component {
                 alt="Jefferson Offices"
                 src={P_0309}
                 id="jeffersonOffice"
-                class="jefferson"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Jefferson Corp.</h3>
@@ -66,7 +66,7 @@ class Network extends Component {
                 alt="2-121"
                 src={P_0312}
                 id="poriteJapan"
-                class="poriteJapan"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Europe S.A.S.(Warehouse)</h3>
@@ -85,7 +85,7 @@ class Network extends Component {
                 alt="porite-Japan"
                 src={P_0302}
                 id="japanOffice"
-                class="japan"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Corporation</h3>
@@ -102,7 +102,7 @@ class Network extends Component {
                 alt="porite-Japan"
                 src={P_0303}
                 id="kumagaya"
-                class="japan"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Corp. Kumagaya Plant </h3>
@@ -117,7 +117,7 @@ class Network extends Component {
                 alt="2-121"
                 src={P_0304}
                 id="poriteJapan"
-                class="poriteJapan"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Taiwan Co., Ltd.</h3>
@@ -136,7 +136,7 @@ class Network extends Component {
                 alt="porite-Singapore"
                 src={P_0305}
                 id="singaporeOffice"
-                class="singapore"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Singapore PTE. Ltd.</h3>
@@ -152,7 +152,7 @@ class Network extends Component {
                 alt="porite-Yangzhou"
                 src={P_0306}
                 id="yangzhouOffice"
-                class="yangzhou"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Yangzhou Technology &</h3>
@@ -171,7 +171,7 @@ class Network extends Component {
                 alt="porite-Malaysia"
                 src={P_0307}
                 id="poriteMalaysia"
-                class="malaysia"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Malaysia SDN. BHD.</h3>
@@ -190,7 +190,7 @@ class Network extends Component {
                 alt="porite-TouFen"
                 src={P_0308}
                 id="poriteTouFen"
-                class="tou-fen"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Tou-Fen Factory</h3>
@@ -208,7 +208,7 @@ class Network extends Component {
                 alt="porite-India"
                 src={P_0310}
                 id="poriteIndia"
-                class="india"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite India Private Limited</h3>
@@ -225,7 +225,7 @@ class Network extends Component {
                 alt="porite-HongKong"
                 src={P_0311}
                 id="poriteHongKong"
-                class="hong-kong"
+                class="officePic"
               />
               <ul className="picture-info">
                 <h3 className= "officeHeading">Porite Hong Kong Ind. Co., Ltd.</h3>

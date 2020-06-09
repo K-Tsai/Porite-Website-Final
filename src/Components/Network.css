@@ -75,5 +75,18 @@ span {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1277px) {
-  
+  .officePic {
+    width: 100%;
+  }
+
+  .offices1, .offices2, .offices3, .offices4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -moz-column-count: 2;
+  }
+
+  .picture-info li {
+    font-size: 13px;
+  }
 }
