@@ -27,7 +27,7 @@ class Home extends React.Component {
           <h1 className="partsCenter">Products</h1>
           <div className="products">
     
-            <div className="col">
+            <div className="col-sm">
               <img 
                 alt="Auto Parts"
                 src={AutoParts}
@@ -36,7 +36,7 @@ class Home extends React.Component {
               />
               <h2 className="productHeader">Auto Parts</h2>
             </div>
-            <div className="col">
+            <div className="col-sm">
               <img 
                 alt="Metal Injection"
                 src={MetalInjectionMolding}
@@ -45,7 +45,7 @@ class Home extends React.Component {
               />
               <h2 className="productHeader">Metal Injection Molding</h2>
             </div>
-            <div className="col">
+            <div className="col-sm">
               <img 
                 alt="Oiless Bearing"
                 src={OillessBearingParts}

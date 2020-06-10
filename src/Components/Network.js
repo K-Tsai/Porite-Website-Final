@@ -203,7 +203,7 @@ class Network extends Component {
                 <li>http://www.porite.com.tw</li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col-md-4 no-padding">
               <img 
                 alt="porite-India"
                 src={P_0310}

@@ -2,9 +2,12 @@
   font-family: 'Merriweather', serif;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 987px) {
 a.nav-link {
-  font-size: 23px;
+  font-size: 20px;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 987px) {
+  a.nav-link {
+    font-size: 15px;
+  }
 }
