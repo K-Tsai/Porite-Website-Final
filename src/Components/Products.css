@@ -3,11 +3,14 @@
   height: auto;
 }
 
+
+
 .autoParts, .powerToolParts, .MetalInjection {
   font-family: 'Merriweather', serif;
   font-size: 23px;
   padding-left: 66px;
   text-decoration: underline;
+  text-align: left;
 }
 
 .autoParts,.metalInjection {
@@ -44,4 +47,43 @@ a {
 .reminderTitle {
   font-size: 25px;
   text-align:center;
+}
+
+@media only screen and (min-width: 1004px) and (max-width: 1277px) {
+  .parts {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 529px) and (max-width: 1003px) {
+  .parts {
+    width: 100%;
+  }
+
+  .parts1, .parts2, .parts3, .parts4, .parts5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 528px) {
+  .parts {
+    width: 100%;
+  }
+
+  .parts1, .parts2, .parts3, .parts4, .parts5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .reminderTitle{
+    font-size: 19px;
+    text-align: center;
+  }
+
+  a {
+    font-size: 19px;
+  }
 }

@@ -18,7 +18,6 @@ class Network extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
           <div className="worldmap">
           <img 
             alt="Porite World Map"
@@ -203,7 +202,7 @@ class Network extends Component {
                 <li>http://www.porite.com.tw</li>
               </ul>
             </div>
-            <div className="col-md-4 no-padding">
+            <div className="col">
               <img 
                 alt="porite-India"
                 src={P_0310}
@@ -238,7 +237,6 @@ class Network extends Component {
               </ul>
             </div>
           </div>
-        </div>
       </div>
     );
   }

@@ -20,7 +20,6 @@ class Products extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
           <h1 className="autoParts">Power Tools</h1>
           <div className ="parts1">
             <div className="col">
@@ -52,7 +51,7 @@ class Products extends Component {
             </div>
           </div>
           <h1 className="autoParts">Auto Parts</h1>
-          <div className="parts1">
+          <div className="parts2">
             <div className="col">
               <img 
                 alt="Seat Adjustment Parts"
@@ -81,7 +80,7 @@ class Products extends Component {
               <h2 className="productTitle">Steering Wheel Parts</h2>
             </div>
           </div>
-          <div className="parts2">
+          <div className="parts3">
             <div className="col">
               <img 
                 alt="Synchronizer"
@@ -110,7 +109,7 @@ class Products extends Component {
               <h2 className="productTitle">VVT Parts</h2>
             </div>
           </div>
-          <div className="parts3">
+          <div className="parts4">
             <div className="col">
               <img 
                 alt="Electronic Brake Parts"
@@ -174,7 +173,6 @@ class Products extends Component {
               Please Visit <a href="http://www.porite.com.tw/en/html/product/index.php?muid=71">Porite Taiwan</a> for more product information.
             </h1>
           </div>
-        </div>
       </div>
     );
   }

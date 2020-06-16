@@ -1,22 +1,21 @@
 .title1 {
-  margin: 30px 0px 15px 50px;
+  margin: 30px 0px 0px 50px;
 }
 
 .title2 {
-  margin: 15px 0px 15px 50px;
-}
-
-h3 {
-  font-family: 'Merriweather', serif;
+  margin: 15px 0px 0px 50px;
 }
 
 .title1, .title2 {
   font-family: 'Merriweather', serif;
   text-decoration: underline;
+  text-align: left;
 }
 
 .officeHeading {
   text-align: left;
+  font-family: 'Merriweather', serif;
+  font-size: 1.75rem;
 }
 
 .picture-info {
@@ -30,8 +29,8 @@ h3 {
   width: 75%;
   height: auto;
   display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .picture-info li {
@@ -74,14 +73,6 @@ span {
   font-size: 15px;
 }
 
-.row {
-  display: flex;
-}
-
-.col {
-  flex: 50%;
-}
-
 
 
 @media only screen and (min-width: 1004px) and (max-width: 1277px) {
@@ -90,31 +81,36 @@ span {
   }
 
   .picture-info li {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   ul.picture-info {
     width: 100%;
     /* padding-left: 34px; */
   }
-
-  .col {
-    width: 100%
-  }
 }
 
-@media only screen and (min-width: 579px) and (max-width: 1003px) {
+@media only screen and (min-width: 529px) and (max-width: 1003px) {
+  h3 {
+    font-size: 2.75rem
+  }
+
   .officePic {
     width: 100%;
+    margin-top: 20px;
+  }
+
+  .officeHeading{
+    font-size: 2.5rem;
   }
 
   .picture-info li {
-    font-size: 13px;
+    font-size: 21px;
   }
 
   .offices1, .offices2, .offices3, .offices4 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
@@ -122,23 +118,33 @@ span {
     width: 100%; 
   }
 
-  .col {
-    width: 100%
+  #poriteWorldMap {
+    width: 100%;
   }
+  
 }
 
-@media only screen and (min-width: 0px) and (max-width: 578px) {
+@media only screen and (min-width: 0px) and (max-width: 528px) {
   .officePic {
     width: 100%;
+  }
+
+  .title1 {
+    font-size: 1.75rem;
   }
 
   .picture-info li {
     font-size: 15px;
   }
 
+  .officePic {
+    width: 100%;
+    margin-top: 20px;
+  }
+
   .offices1, .offices2, .offices3, .offices4 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
@@ -146,8 +152,8 @@ span {
     width: 100%;
   }
 
-  .col {
-    width: 100%
+  #poriteWorldMap {
+    width: 100%;
   }
 
 }
