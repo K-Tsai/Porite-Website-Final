@@ -160,3 +160,58 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1198px) {
+  .products {
+    display:flex;
+    flex-direction: column;
+  }
+
+  #map {
+    width: 460.797px;
+    height: 321.297px;
+    object-fit:cover;
+  }
+
+  #autoParts, #metalInjection, #oillessBearing {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Porous {
+    width: 90%;
+  }
+
+	.botLayout, .botLayout3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botLayout2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #linkHeader1, #linkHeader2, #linkHeader3 {
+    text-align:left;
+  }
+
+  #linkHeader1 {
+    padding: 0px;
+  }
+
+  .productDesc, .productDesc2, .productDesc3 {
+    width: 100%;
+  }
+
+  .row2 {
+    padding: 0px;
+  }
+
+  .productDesc2 {
+    text-align: left;
+    padding: 0px;
+  }
+
+}

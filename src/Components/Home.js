@@ -72,8 +72,8 @@ class Home extends React.Component {
               <img 
                 alt="Porite Meaning"
                 src={PoriteMeaning}
-                id="PoriteMeaning"
-                class="products"
+                id="Porous"
+                class="summary-img"
               />
             </div>
           </div>
@@ -83,7 +83,7 @@ class Home extends React.Component {
                   alt="Porite Map"
                   src={map}
                   id="map"
-                  class="products"
+                  class="summary-img"
                 />
               </div>
                 <div className="col">
@@ -116,7 +116,7 @@ class Home extends React.Component {
                 alt="Porite Map"
                 src={PoriteProducts}
                 id="poriteProducts"
-                class="products"
+                class="summary-img"
               />
               </div>
             </div>
