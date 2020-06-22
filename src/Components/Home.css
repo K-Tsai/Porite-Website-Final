@@ -160,3 +160,180 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1198px) {
+  .products {
+    display:flex;
+    flex-direction: column;
+  }
+
+  #autoParts, #metalInjection, #oillessBearing {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+	.botLayout, .botLayout3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botLayout2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #linkHeader1, #linkHeader2, #linkHeader3 {
+    text-align:left;
+    padding:0px;
+  }
+
+  #linkHeader1 {
+    padding: 0px;
+  }
+
+  .productDesc, .productDesc2, .productDesc3 {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .productDesc2 {
+    text-align: left;
+    padding: 0px;
+  }
+
+  #link1, #link2, #link3 {
+    text-align:left;
+    padding: 0px;
+  }
+
+  .row1, .row2, .row3 { 
+   padding-left: 50px;
+  } 
+
+  #poriteMeaning, #poriteProducts {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1198px) {
+  .products {
+    display:flex;
+    flex-direction: column;
+  }
+
+  #autoParts, #metalInjection, #oillessBearing {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+	.botLayout, .botLayout3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botLayout2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #linkHeader1, #linkHeader2, #linkHeader3 {
+    text-align:left;
+    padding:0px;
+  }
+
+  #linkHeader1 {
+    padding: 0px;
+  }
+
+  .productDesc, .productDesc2, .productDesc3 {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .productDesc2 {
+    text-align: left;
+    padding: 0px;
+  }
+
+  #link1, #link2, #link3 {
+    text-align:left;
+    padding: 0px;
+  }
+
+  .row1, .row2, .row3 { 
+   padding-left: 60px;
+  } 
+
+  #poriteMeaning, #poriteProducts {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #map {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media only screen and (min-width: 451px) and (max-width: 779px) {
+  .row1, .row2, .row3 {
+    padding: 0px;
+  }
+
+  #poriteMeaning, #map, #poriteProducts {
+    width: 100%;
+  }
+
+  #linkHeader1, #linkHeader2, #linkHeader3 {
+    font-size: 25px;
+  }
+
+  .productDesc, .productDesc2, .productDesc3 {
+    font-size: 19px;
+  }
+
+  #link1, #link2, #link3 {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 450px) {
+  #linkHeader1, #linkHeader2, #linkHeader3 {
+    font-size: 18px;
+  }
+
+  .productDesc, .productDesc2, .productDesc3 {
+    font-size: 14px;
+  }
+
+  #link1, #link2, #link3 {
+    font-size: 14px;
+  }
+
+  .row1, .row2, .row3 {
+    padding: 0px;
+  }
+
+  #poriteMeaning, #map, #poriteProducts {
+    width: 100%;
+    height: auto;
+  }
+
+  .productHeader {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+

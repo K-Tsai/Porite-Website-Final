@@ -72,7 +72,7 @@ class Home extends React.Component {
               <img 
                 alt="Porite Meaning"
                 src={PoriteMeaning}
-                id="PoriteMeaning"
+                id="poriteMeaning"
                 class="products"
               />
             </div>

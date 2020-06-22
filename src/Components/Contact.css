@@ -3,6 +3,10 @@ label {
   font-family: 'Merriweather', serif;
 }
 
+input:invalid {
+  border-color: red;
+}
+
 textarea {
   height: 100px;
 }
