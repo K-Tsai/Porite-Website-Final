@@ -8,7 +8,7 @@
 .autoParts, .powerToolParts, .MetalInjection {
   font-family: 'Merriweather', serif;
   font-size: 23px;
-  padding-left: 66px;
+  padding-left: 61px;
   text-decoration: underline;
   text-align: left;
 }
@@ -49,15 +49,19 @@ a {
   text-align:center;
 }
 
-@media only screen and (min-width: 1004px) and (max-width: 1277px) {
+@media only screen and (min-width: 1003px) and (max-width: 1004px) {
   .parts {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 529px) and (max-width: 1003px) {
+@media only screen and (min-width: 762px) and (max-width: 1002px) {
   .parts {
-    width: 100%;
+    width: 70%;
+  }
+
+  .autoParts, .powerToolParts, .MetalInjection {
+    padding-left: 139px;
   }
 
   .parts1, .parts2, .parts3, .parts4, .parts5 {
@@ -65,11 +69,20 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
   }
+
+  .productTitle{
+    margin-bottom: 20px;
+  }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 528px) {
+@media only screen and (min-width: 0px) and (max-width: 761px) {
   .parts {
     width: 100%;
+  }
+
+  .autoParts, .powerToolParts, .MetalInjection {
+    padding-left: 50px;
+    font-size: 20px;
   }
 
   .parts1, .parts2, .parts3, .parts4, .parts5 {
@@ -81,6 +94,11 @@ a {
   .reminderTitle{
     font-size: 19px;
     text-align: center;
+  }
+
+  .productTitle {
+    font-size: 15px;
+    margin-bottom: 20px;
   }
 
   a {

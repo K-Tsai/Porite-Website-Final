@@ -12,6 +12,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Footer from './Components/Footer';
 import axios from 'axios';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 class App extends Component {
   constructor(props) {
@@ -29,6 +31,8 @@ class App extends Component {
       error: null
     };
   }
+  
+ 
 
   handleChange = (key, e) =>{
     this.setState({
@@ -38,18 +42,22 @@ class App extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    axios({
-      method: "POST", 
-      url:"http://localhost:3002/send", 
-      data:  this.state
-    }).then((response)=>{
-      if (response.data.status === 'success'){
-        alert("Message Sent."); 
-        this.resetForm()
-      }else if(response.data.status === 'fail'){
-        alert("Message failed to send.")
-      }
-    })
+    if (!e.target.checkValidity()){
+      return 
+    } else {
+      axios({
+        method: "POST", 
+        url:"http://localhost:3002/send", 
+        data:  this.state
+      }).then((response)=>{
+        if (response.data.status === 'success'){
+          alert("Message Sent."); 
+          this.resetForm()
+        }else if(response.data.status === 'fail'){
+          alert("Message failed to send.")
+        }
+      })
+    }
   }
 
   resetForm () {

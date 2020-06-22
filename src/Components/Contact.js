@@ -40,7 +40,7 @@ class Contact extends Component {
           </div>
         <div className="cform">
           <h1 className="form-title">Request a Quote</h1>
-        <form action="#">
+        <form action="#" noValidate>
             <label for="name">Name <span className="asterisk">*</span></label>
             <input 
               type="text" 
@@ -48,6 +48,7 @@ class Contact extends Component {
               name="name" 
               onChange={this.props.changeName}
               value={this.props.name}
+              pattern="\d+"
               required
             />
             <label for="cname">Company Name <span className="asterisk">*</span></label>
@@ -57,6 +58,7 @@ class Contact extends Component {
               name="cname"
               onChange={this.props.changeCompany} 
               value={this.props.cname}
+              pattern="\d+"
               required
             />
             <label for="tphone">Telephone <span className="asterisk">*</span></label>
@@ -66,6 +68,8 @@ class Contact extends Component {
               name="tphone"
               onChange={this.props.changeTelephone} 
               value={this.props.telephone}
+              required
+              pattern="\d+"
             />
             <label for="email">Email</label>
             <input 

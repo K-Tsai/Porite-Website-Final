@@ -25,7 +25,7 @@ class Home extends React.Component {
           </div>
           
           <h1 className="partsCenter">Products</h1>
-          <div className="products">
+          <div className="products1">
     
             <div className="col-sm">
               <img 
@@ -63,7 +63,7 @@ class Home extends React.Component {
                   A major leader in the manufacturing
                   of sintered mechanical parts.
                 </p>
-                <Link to= "/network">
+                <Link to= "/about">
                   <li id="link1">Learn more about our company</li>
                 </Link>
               </div>
@@ -72,8 +72,8 @@ class Home extends React.Component {
               <img 
                 alt="Porite Meaning"
                 src={PoriteMeaning}
-                id="Porous"
-                class="summary-img"
+                id="poriteMeaning"
+                class="products"
               />
             </div>
           </div>
