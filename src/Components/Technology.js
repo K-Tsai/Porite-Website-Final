@@ -12,7 +12,7 @@ class Technology extends Component {
               alt="PowderMetallurgy"
               src={PowderMetallurgy}
               id="powderMetallurgy"
-              class="technology"
+              className="technology"
             />
             <div className="description">
               <h1 className="techTitle">Powder Metallurgy</h1>

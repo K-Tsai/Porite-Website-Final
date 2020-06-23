@@ -27,7 +27,7 @@ class Products extends Component {
                 alt="Gear Box 12V"
                 src={GearBox12V}
                 id="12V"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">2 Speed Gear Boxes (12V)</h2>
             </div>
@@ -36,7 +36,7 @@ class Products extends Component {
                 alt="Gear Box 22V"
                 src={GearBox22V}
                 id="22V"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">2 Speed Gear Boxes (21.6V)</h2>
             </div>
@@ -45,7 +45,7 @@ class Products extends Component {
                 alt="Power Tool Parts"
                 src={PowerToolParts1}
                 id="powerToolParts"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Power Tool Parts</h2>
             </div>
@@ -57,7 +57,7 @@ class Products extends Component {
                 alt="Seat Adjustment Parts"
                 src={SeatAdjustment}
                 id="seatAdjustment"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Seat Adjustment Parts</h2>
             </div>
@@ -66,7 +66,7 @@ class Products extends Component {
                 alt="Steel"
                 src={Steel}
                 id="steelParts"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Stainless Steel Parts</h2>
             </div>
@@ -75,7 +75,7 @@ class Products extends Component {
                 alt="Steering Parts"
                 src={Steering}
                 id="steeringParts"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Steering Wheel Parts</h2>
             </div>
@@ -86,7 +86,7 @@ class Products extends Component {
                 alt="Synchronizer"
                 src={Synchronizer}
                 id="synchronizerParts"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Synchronizer Hubs</h2>
             </div>
@@ -95,7 +95,7 @@ class Products extends Component {
                 alt="Transmission"
                 src={Transmission}
                 id="transmissionParts"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Transmission Parts</h2>
             </div>
@@ -104,7 +104,7 @@ class Products extends Component {
                 alt="VVT"
                 src={VVT}
                 id="VVTparts"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">VVT Parts</h2>
             </div>
@@ -115,7 +115,7 @@ class Products extends Component {
                 alt="Electronic Brake Parts"
                 src={ElectronicBrake}
                 id="electronicBrake"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Electronic Parking Brake Parts (E.P.B.)</h2>
             </div>
@@ -124,7 +124,7 @@ class Products extends Component {
                 alt="Electronic Power Steering Parts"
                 src={ElectronicPower}
                 id="electronicPower"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Eletronic Power Steering Parts (E.P.S.)</h2>
             </div>
@@ -133,7 +133,7 @@ class Products extends Component {
                 alt="Vacuum Pump"
                 src={VacuumPump}
                 id="vacuumPump"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Vacuum Pump Coupling</h2>
             </div>
@@ -145,7 +145,7 @@ class Products extends Component {
                 alt="Stainless Steel Parts"
                 src={StainlessSteelParts}
                 id="stainlessSteel"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">2 Speed Gear Boxes (12V)</h2>
             </div>
@@ -154,7 +154,7 @@ class Products extends Component {
                 alt="OA Parts"
                 src={OAParts}
                 id="OA"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">2 Speed Gear Boxes (21.6V)</h2>
             </div>
@@ -163,7 +163,7 @@ class Products extends Component {
                 alt="Magnetic Parts"
                 src={MagneticParts}
                 id="magneticParts"
-                class="parts"
+                className="parts"
               />
               <h2 className="productTitle">Power Tool Parts</h2>
             </div>

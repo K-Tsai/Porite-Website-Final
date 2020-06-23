@@ -7,20 +7,19 @@ import PoriteMeaning from '../pictures/PoriteMeaning.jpg';
 import map from '../pictures/map.jpg';
 import PoriteProducts from '../pictures/PoriteProducts.jpg';
 import {Link} from 'react-router-dom';
-import ReactPlayer from "react-player"
 import "./Home.css";
 
 class Home extends React.Component {
   render() {
     return (
-      <div class="container">
+      <div className="container">
         <div className="row">
           <div className="homePage">
             <img
             alt="Meaning"
-            src={PoriteFrontPage} fluid
+            src={PoriteFrontPage}
             id="poriteMeaning"
-            class="img-fluid"
+            className="img-fluid"
           />
           </div>
           
@@ -32,7 +31,7 @@ class Home extends React.Component {
                 alt="Auto Parts"
                 src={AutoParts}
                 id="autoParts"
-                class="products"
+                className="products"
               />
               <h2 className="productHeader">Auto Parts</h2>
             </div>
@@ -41,7 +40,7 @@ class Home extends React.Component {
                 alt="Metal Injection"
                 src={MetalInjectionMolding}
                 id="metalInjection"
-                class="products"
+                className="products"
               />
               <h2 className="productHeader">Metal Injection Molding</h2>
             </div>
@@ -50,7 +49,7 @@ class Home extends React.Component {
                 alt="Oiless Bearing"
                 src={OillessBearingParts}
                 id="oillessBearing"
-                class="products"
+                className="products"
               />
               <h2 className="productHeader">Oilless Bearing Parts</h2>
             </div>
@@ -73,7 +72,7 @@ class Home extends React.Component {
                 alt="Porite Meaning"
                 src={PoriteMeaning}
                 id="poriteMeaning"
-                class="products"
+                className="products"
               />
             </div>
           </div>
@@ -83,7 +82,7 @@ class Home extends React.Component {
                   alt="Porite Map"
                   src={map}
                   id="map"
-                  class="summary-img"
+                  className="summary-img"
                 />
               </div>
                 <div className="col">
@@ -116,7 +115,7 @@ class Home extends React.Component {
                 alt="Porite Map"
                 src={PoriteProducts}
                 id="poriteProducts"
-                class="summary-img"
+                className="summary-img"
               />
               </div>
             </div>
