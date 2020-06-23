@@ -6,8 +6,8 @@ import "./NavigationBar.css"
 class NavigationBar extends React.Component {
   render() {
     return (
-      <div class ="container">
-        <Navbar inverse fixedTop expand="lg" bg="#EA2900" variant="light">
+      <div className ="container">
+        <Navbar inverse="true" fixedtop="true" expand="lg" bg="#EA2900" variant="light">
           <Link to= "/">
             <Navbar.Brand>
               <img

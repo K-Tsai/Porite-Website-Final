@@ -133,8 +133,12 @@ span {
     font-size: 1.75rem;
   }
 
-  .picture-info li {
+  .officeHeading {
     font-size: 15px;
+  }
+
+  .picture-info li {
+    font-size: 11px;
   }
 
   .officePic {

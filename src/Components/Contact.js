@@ -15,7 +15,7 @@ class Contact extends Component {
                 alt="Phone Icon"
                 src={phoneicon}
                 id="phoneIcon"
-                class="icons"
+                className="icons"
               />
               <p className="contactInfo">(248) 597-9988</p>
             </div>
@@ -24,7 +24,7 @@ class Contact extends Component {
                 alt="Location Icon"
                 src={locationicon}
                 id="locationIcon"
-                class="icons"
+                className="icons"
               />
               <p className="contactInfo">1295 Combermere Dr, Troy, MI 48083</p>
             </div>
@@ -33,7 +33,7 @@ class Contact extends Component {
                 alt="Mail Icon"
                 src={mailicon}
                 id="mailIcon"
-                class="icons"
+                className="icons"
               />
               <p className="contactInfo">sales@poriteusa.com</p>
             </div>
@@ -41,7 +41,7 @@ class Contact extends Component {
         <div className="cform">
           <h1 className="form-title">Request a Quote</h1>
         <form action="#" noValidate>
-            <label for="name">Name <span className="asterisk">*</span></label>
+            <label htmlFor="name">Name <span className="asterisk">*</span></label>
             <input 
               type="text" 
               id="name" 
@@ -51,7 +51,7 @@ class Contact extends Component {
               pattern="\d+"
               required
             />
-            <label for="cname">Company Name <span className="asterisk">*</span></label>
+            <label htmlFor="cname">Company Name <span className="asterisk">*</span></label>
             <input 
               type="text" 
               id="cname" 
@@ -61,7 +61,7 @@ class Contact extends Component {
               pattern="\d+"
               required
             />
-            <label for="tphone">Telephone <span className="asterisk">*</span></label>
+            <label htmlFor="tphone">Telephone <span className="asterisk">*</span></label>
             <input 
               type="text" 
               id="tphone" 
@@ -71,7 +71,7 @@ class Contact extends Component {
               required
               pattern="\d+"
             />
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input 
               type="text" 
               id="email" 
@@ -79,7 +79,7 @@ class Contact extends Component {
               onChange={this.props.changeEmail} 
               value={this.props.email} 
             /> 
-            <label for="material">Material</label>
+            <label htmlFor="material">Material</label>
             <input 
               type="text" 
               id="material" 
@@ -87,7 +87,7 @@ class Contact extends Component {
               onChange={this.props.changeMaterial} 
               value={this.props.material}
             /> 
-            <label for="quantity">Quantity</label>
+            <label htmlFor="quantity">Quantity</label>
             <input 
               type="text" 
               id="quantity" 
@@ -95,7 +95,7 @@ class Contact extends Component {
               onChange={this.props.changeQuantity}
               value={this.props.quantity}
               />
-            <label for="date">Delivery Date</label>
+            <label htmlFor="date">Delivery Date</label>
             <input 
               type="text" 
               id="date" 
@@ -103,7 +103,7 @@ class Contact extends Component {
               onChange={this.props.changeDate}
               value={this.props.ddate}
             />
-            <label for="idesc">Item Description</label>
+            <label htmlFor="idesc">Item Description</label>
             <textarea 
               id="idesc" 
               name="idesc"

@@ -36,6 +36,23 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.phoneNumber {
+  color: white;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .footerColor:hover {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 572px) {
+  .footerHeader {
+    font-size: 19px;
+  }
+
+	.Address, .footerColor, .phoneNumber{
+    font-size: 15px;
+  }
+
 }

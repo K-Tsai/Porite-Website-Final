@@ -39,7 +39,7 @@ class Footer extends Component {
                 <Link to= "/contact" style={{ textDecoration: 'none' }}>
                   <li className="footerColor">Email us</li>
                 </Link>
-                <li className="footerColor">(248) 597-9988</li>
+                <li className="phoneNumber">(248) 597-9988</li>
               </ul>
           </div>
         </div>
