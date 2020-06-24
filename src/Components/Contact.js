@@ -63,13 +63,13 @@ class Contact extends Component {
             />
             <label htmlFor="tphone">Telephone <span className="asterisk">*</span></label>
             <input 
-              type="text" 
+              type="tel" 
               id="tphone" 
               name="tphone"
+              pattern= "[0-9]{3}-[0-9]{2}-[0-9]{3}"
               onChange={this.props.changeTelephone} 
               value={this.props.telephone}
               required
-              pattern="\d+"
             />
             <label htmlFor="email">Email</label>
             <input 

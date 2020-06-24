@@ -28,15 +28,48 @@ class App extends Component {
       ddate:'',
       description:'',
       mailSent: false,
-      error: null
+      error: null,
+      errors: {
+        name:'',
+        email:'',
+        telephone: '',
+      }
     };
   }
   
  
 
   handleChange = (key, e) =>{
-    this.setState({
-      [key]: e.target.value
+    e.preventDefault();
+    const {name, value} = e.target
+    const validEmailRegex = 
+      RegExp(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
+    let errors = this.state.errors;
+    switch (name) {
+      case 'name': 
+        errors.name =
+          value.length < 5
+          ? 'Full Name must be 5 characters long!'
+          : '';
+        break;
+        case 'email':
+          errors.email =
+            validEmailRegex.test(value)
+            ? ''
+            :'Email is not valid!';
+          break;
+          case 'telephone':
+            errors.telephone = 
+              value.length < 12 
+                ? 'telephone must be 12 characters long!'
+                : '';
+            break;
+            default:
+              break;
+        
+    }
+    this.setState({errors,[key]: e.target.value}, () => {
+      console.log(errors)
     })
   }
 

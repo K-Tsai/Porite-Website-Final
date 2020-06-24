@@ -3,9 +3,6 @@ label {
   font-family: 'Merriweather', serif;
 }
 
-input:invalid {
-  border-color: red;
-}
 
 textarea {
   height: 100px;
@@ -22,6 +19,18 @@ textarea {
 }
 
 input[type=text], select, textarea {
+  width: 100%;
+  padding: 3px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type=tel], select, textarea {
   width: 100%;
   padding: 3px; 
   border: 1px solid #ccc; 
