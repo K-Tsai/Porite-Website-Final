@@ -15,6 +15,16 @@ import axios from 'axios';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+const validateForm = (errors) => {
+  let valid = true;
+  Object.values(errors).forEach (
+    (val) => val.length > 0 && (valid = false)
+  );
+  return valid
+}
+const validEmailRegex = 
+      RegExp(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -42,13 +52,11 @@ class App extends Component {
   handleChange = (key, e) =>{
     e.preventDefault();
     const {name, value} = e.target
-    const validEmailRegex = 
-      RegExp(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
     let errors = this.state.errors;
     switch (name) {
       case 'name': 
         errors.name =
-          value.length < 5
+         value.length < 5
           ? 'Full Name must be 5 characters long!'
           : '';
         break;
@@ -68,16 +76,14 @@ class App extends Component {
               break;
         
     }
-    this.setState({errors,[key]: e.target.value}, () => {
-      console.log(errors)
-    })
+    this.setState({errors,[key]: e.target.value})
   }
+
+  
 
   handleFormSubmit = e => {
     e.preventDefault();
-    if (!e.target.checkValidity()){
-      return 
-    } else {
+    if(validateForm(this.state.errors)) {
       axios({
         method: "POST", 
         url:"http://localhost:3002/send", 
@@ -90,7 +96,10 @@ class App extends Component {
           alert("Message failed to send.")
         }
       })
+    } else {
+      console.error('Invalid Form')
     }
+      
   }
 
   resetForm () {

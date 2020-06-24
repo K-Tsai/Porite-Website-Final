@@ -40,7 +40,7 @@ class Contact extends Component {
           </div>
         <div className="cform">
           <h1 className="form-title">Request a Quote</h1>
-        <form action="#" noValidate>
+        <form onSubmit= {this.props.handleFormSubmit} noValidate>
             <label htmlFor="name">Name <span className="asterisk">*</span></label>
             <input 
               type="text" 
@@ -111,7 +111,7 @@ class Contact extends Component {
               value={this.props.description}
             />
           
-            <input type="submit" onClick={e => this.props.handleFormSubmit(e)} value="Submit" />
+            <input type="submit" value="Submit" />
           </form>
         </div>
       </div>
