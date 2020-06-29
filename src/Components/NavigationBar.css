@@ -1,12 +1,16 @@
 * {
   font-family: 'Merriweather', serif;
 }
+ 
+.toggler {
+  margin-left: auto;
+}
 
 a.nav-link {
   font-size: 20px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 987px) {
+@media only screen and (min-width: 0px) and (max-width: 758px) {
   a.nav-link {
     font-size: 15px;
   }
