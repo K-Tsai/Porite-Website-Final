@@ -2,18 +2,22 @@ var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
-const creds = require('./config');
+// const creds = require('./config');
 
-var transport = {
-  host: 'Smtp.gmail.com',
-  port: 587,
+var transport = nodemailer.createTransport({
+  host: "smtp.mailtrap.io",
+  port: 2525,
   auth: {
-    user: creds.USER,
-    pass: creds.PASS
+    user: '777897ceebf6fb',
+    pass: 'ec1f1e21c40fec'
   }
-}
+});
 
 var transporter = nodemailer.createTransport(transport)
+
+process.on('uncaughtException', function (err) {
+  console.log(err);
+}); 
 
 transporter.verify((error, success) => {
   if (error) {
