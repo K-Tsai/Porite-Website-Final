@@ -109,8 +109,10 @@ class App extends Component {
  
   render() {
     return (
-      <div className="App" style={{flex: 1}}>
-        <NavigationBar></NavigationBar>
+      <div className="App">
+        <div className="container">
+          <NavigationBar></NavigationBar>
+        </div>
         <Switch>
           <Route 
             exact path='/' 
