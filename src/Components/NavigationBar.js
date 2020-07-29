@@ -20,7 +20,7 @@ class NavigationBar extends React.Component {
         <Navbar.Collapse id="responsive-navbar-nav justify-content-end">
           <Nav className="mr-auto">
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/products">Products</Nav.Link>
+            <Nav.Link href="/products">Products</Nav.Link>  
             <Nav.Link href="/network">Network</Nav.Link>
             <Nav.Link href="/technology">Technology</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>

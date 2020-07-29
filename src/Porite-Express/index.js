@@ -2,32 +2,39 @@ var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
-// const creds = require('./config');
+const creds = require('./config');
 
-var transport = nodemailer.createTransport({
-  host: "smtp.mailtrap.io",
-  port: 2525,
+
+let transporter = nodemailer.createTransport({
+  host: "smtp.gmail.com",
+  port: 587,
+  secure: false,
   auth: {
-    user: '777897ceebf6fb',
-    pass: 'ec1f1e21c40fec'
+    user: creds.USER, // generated ethereal user
+    pass: creds.PASS // generated ethereal password
+  },
+  tls: {
+    rejectUnauthorized: false
   }
 });
 
-var transporter = nodemailer.createTransport(transport)
-
-process.on('uncaughtException', function (err) {
-  console.log(err);
-}); 
-
-transporter.verify((error, success) => {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log('Server is read to take messages');
+async function sendMail(from, to, subject, text, html) {
+  try {
+    let mailsent = await transporter.sendMail({
+      from, // sender address
+      to, // list of receivers
+      subject, // Subject line
+      text,
+      html
+    });
+    return mailsent;
+  }catch(error) {
+    console.log('mail error: ', error);
   }
-});
+}
 
-router.post('/send', (req, res, next) => {
+
+router.post('/send', async (req, res, next) => {
   var name = req.body.name
   var cname = req.body.cname
   var telephone = req.body.telephone
@@ -45,17 +52,23 @@ router.post('/send', (req, res, next) => {
     text: content
   }
 
-  transporter.sendMail(mail, (err, data) => {
-    if (err) {
-      res.json({
-        status: 'fail'
-      })
-    } else {
-      res.json({
-        status: 'success'
-      })
-    }
-  })
+  try {
+    await sendMail(name, 'k.tsai92@gmail.com', 'New Message from Contact Form', content, '');
+  }catch(error) {
+    console.log('mail error: ', error);
+  }
+
+  // transporter.sendMail(mail, (err, data) => {
+  //   if (err) {
+  //     res.json({
+  //       status: 'fail'
+  //     })
+  //   } else {
+  //     res.json({
+  //       status: 'success'
+  //     })
+  //   }
+  // })
 })
 
 const app = express()

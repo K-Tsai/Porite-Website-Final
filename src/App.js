@@ -109,7 +109,7 @@ class App extends Component {
  
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{flex: 1}}>
         <NavigationBar></NavigationBar>
         <Switch>
           <Route 
