@@ -37,7 +37,7 @@ class Footer extends Component {
           <h1 className='footerHeader'>Contact</h1>
               <ul className="footerList">
                 <Link to= "/contact" style={{ textDecoration: 'none' }}>
-                  <li className="footerColor">Email us</li>
+                  <li className="footerColor">Contact us</li>
                 </Link>
                 <li className="phoneNumber">(248) 597-9988</li>
               </ul>

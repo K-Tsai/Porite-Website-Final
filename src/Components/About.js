@@ -6,6 +6,7 @@ class About extends Component {
     return (
       <div className="container">
         <div className="row">
+          <div className='AboutPage'>
           <img
             alt="Meaning"
             src={Founder}
@@ -36,6 +37,7 @@ class About extends Component {
               demanded. While maintaining a production system that seeks a balance in quality, price and delivery.
               Porite is striving to develop new technology for ever greater quality to the meet the needs of customers.
             </p>
+          </div>
           </div>
         </div>
       </div>

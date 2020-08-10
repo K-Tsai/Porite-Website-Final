@@ -5,7 +5,7 @@ label {
 
 .contacts {
   margin-top: 200px;
-  margin-bottom: 235px;
+  min-height: calc(60vh - 60px)
 }
 
 
@@ -94,19 +94,25 @@ form {
   height: 200px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 992px) {
+@media only screen and (min-width: 401px) and (max-width: 992px) {
   .icons {
-    width: 100%;
+    width: 75%;
     height: auto;
   }
 
   .contacts {
     display: flex;
     flex-direction: column;
+    margin-bottom: 200px;
   }
 }
 
 @media only screen and (max-width: 400px) {
+
+  .icons {
+    width: 100%;
+    height: auto;
+  }
   .form-title {
     font-size: 20px;
   }
@@ -122,5 +128,8 @@ form {
   input[type=submit] {
     width: 100px;
     height: 50px;
+  }
+  .contacts {
+    margin-bottom:200px;
   }
 }
