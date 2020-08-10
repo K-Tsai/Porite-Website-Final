@@ -17,7 +17,7 @@ class NavigationBar extends React.Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" className="toggler" />
           <Navbar.Collapse id="responsive-navbar-nav justify-content-end">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/products">Products</Nav.Link>  
               <Nav.Link href="/network">Network</Nav.Link>

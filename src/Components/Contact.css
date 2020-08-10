@@ -3,6 +3,11 @@ label {
   font-family: 'Merriweather', serif;
 }
 
+.contacts {
+  margin-top: 200px;
+  margin-bottom: 235px;
+}
+
 
 textarea {
   height: 100px;
@@ -76,7 +81,7 @@ input[type=submit]:hover {
 }
 
 .icons {
-  width: 120px;
+  width: 75%;
   height: auto;
 }
 
@@ -87,6 +92,18 @@ form {
 
 .idesc {
   height: 200px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+  .icons {
+    width: 100%;
+    height: auto;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 400px) {
