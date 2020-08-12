@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className='AboutPage'>
+          <div className='aboutPage'>
           <img
             alt="Meaning"
             src={Founder}

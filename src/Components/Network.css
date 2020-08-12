@@ -127,6 +127,7 @@ span {
 @media only screen and (min-width: 0px) and (max-width: 528px) {
   .officePic {
     width: 100%;
+    margin-top: 20px;
   }
 
   .title1 {
@@ -139,11 +140,6 @@ span {
 
   .picture-info li {
     font-size: 11px;
-  }
-
-  .officePic {
-    width: 100%;
-    margin-top: 20px;
   }
 
   .offices1, .offices2, .offices3, .offices4 {

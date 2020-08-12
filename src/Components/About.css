@@ -14,6 +14,10 @@
   margin-bottom: 30px;
 }
 
+.aboutPage {
+  margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 572px) {
 	.history{
     padding-right: 20px;
