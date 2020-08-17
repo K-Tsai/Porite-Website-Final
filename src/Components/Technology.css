@@ -25,6 +25,11 @@
     font-size: 17px;
   }
 
+  .technology {
+    width: 100%;
+    height: auto;
+  }
+
   .techDesc {
     font-size: 15px;
     margin-bottom: 30px;

@@ -2,6 +2,10 @@
   font-family: 'Merriweather', serif;
 }
 
+.navbar-toggler {
+  margin-left: auto;
+}
+
 a.nav-link {
   font-size: 15px;
 }
